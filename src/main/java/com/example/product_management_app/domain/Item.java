@@ -17,4 +17,11 @@ public class Item {
 
   @Size(max = 50, message = "ベーダー名は50文字を超えないでください")
   private String vendor;
+
+  public Long getId() {
+    return id;
+  }
+  public void setId(Long id) {
+    this.id = id;
+  }
 }
