@@ -1,4 +1,7 @@
-package com.example.product_management_app.controller;
+package com.example.demo.controller;
+
+import com.example.demo.domain.Item;
+import com.example.demo.service.ItemService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,9 +15,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.example.product_management_app.domain.Item;
-import com.example.product_management_app.service.ItemService;
 
 @Controller
 @RequestMapping("/items")

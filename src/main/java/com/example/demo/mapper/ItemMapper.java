@@ -1,10 +1,10 @@
-package com.example.product_management_app.mapper;
+package com.example.demo.mapper;
 
 import java.util.List;
 
-import org.apache.ibatis.annotations.Mapper;
+import com.example.demo.domain.Item;
 
-import com.example.product_management_app.domain.Item;
+import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface ItemMapper {

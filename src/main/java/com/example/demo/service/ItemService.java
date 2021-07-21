@@ -1,13 +1,13 @@
-package com.example.product_management_app.service;
+package com.example.demo.service;
 
 import java.util.List;
+
+import com.example.demo.domain.Item;
+import com.example.demo.mapper.ItemMapper;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.example.product_management_app.domain.Item;
-import com.example.product_management_app.mapper.ItemMapper;
 
 @Service
 public class ItemService {
