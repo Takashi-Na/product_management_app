@@ -1,8 +1,8 @@
-package com.example.demo.mapper;
+package com.example.productmanagementapp.mapper;
 
 import java.util.List;
 
-import com.example.demo.domain.Item;
+import com.example.productmanagementapp.domain.Item;
 
 import org.apache.ibatis.annotations.Mapper;
 

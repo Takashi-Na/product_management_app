@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.productmanagementapp.controller;
 
-import com.example.demo.domain.Item;
-import com.example.demo.service.ItemService;
+import com.example.productmanagementapp.domain.Item;
+import com.example.productmanagementapp.service.ItemService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -57,8 +57,7 @@ public class ItemController {
   }
 
   @PutMapping("{id}")
-  public String update(@PathVariable Long id, @ModelAttribute("item") @Validated Item item, BindingResult result,
-      Model model) {
+  public String update(@PathVariable Long id, @ModelAttribute("item") @Validated Item item, BindingResult result, Model model) {
     if (result.hasErrors()) {
       model.addAttribute("item", item);
       return "edit";
