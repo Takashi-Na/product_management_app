@@ -2,9 +2,9 @@ package com.example.demo.mapper;
 
 import java.util.List;
 
-import com.example.demo.domain.Item;
-
 import org.apache.ibatis.annotations.Mapper;
+
+import com.example.demo.domain.Item;
 
 @Mapper
 public interface ItemMapper {
