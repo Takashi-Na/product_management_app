@@ -1,9 +1,9 @@
-package com.example.productmanagementapp.service;
+package com.example.demo.service;
 
 import java.util.List;
 
-import com.example.productmanagementapp.domain.Item;
-import com.example.productmanagementapp.mapper.ItemMapper;
+import com.example.demo.domain.Item;
+import com.example.demo.mapper.ItemMapper;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
