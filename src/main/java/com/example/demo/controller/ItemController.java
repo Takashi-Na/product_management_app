@@ -17,6 +17,7 @@ import com.example.demo.domain.Item;
 import com.example.demo.service.ItemService;
 
 @Controller
+// 初期画面のURL
 @RequestMapping("/items")
 public class ItemController {
 
