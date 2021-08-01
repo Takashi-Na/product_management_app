@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package src.main.java.com.example.productmanagementapp.service;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package src.main.java.com.example.productmanagementapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

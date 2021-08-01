@@ -1,4 +1,4 @@
-package com.example.demo.mapper;
+package src.main.java.com.example.productmanagementapp.mapper;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package src.main.java.com.example.productmanagementapp.domain;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
