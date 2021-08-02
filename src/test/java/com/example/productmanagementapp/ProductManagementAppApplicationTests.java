@@ -1,4 +1,4 @@
-package src.test.java.com.example.productmanagementapp;
+package com.example.productmanagementapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

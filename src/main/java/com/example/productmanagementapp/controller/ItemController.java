@@ -1,4 +1,4 @@
-package src.main.java.com.example.productmanagementapp.controller;
+package com.example.productmanagementapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.example.demo.domain.Item;
-import com.example.demo.service.ItemService;
+import com.example.productmanagementapp.domain.Item;
+import com.example.productmanagementapp.service.ItemService;
 
 @Controller
 // 初期画面のURL
